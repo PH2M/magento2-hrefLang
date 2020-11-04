@@ -1,0 +1,20 @@
+
+{
+    "name": "ph2m/module-hreflang",
+    "type": "magento2-module",
+    "description": "This Magento 2 multi store extension adds the alternate hreflang tag for: Pages, Product and Category.",
+    "authors": [
+    {
+      "name": "PH2M",
+      "email": "contact@ph2m.com"
+    }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "BrunoCanada\\HrefLang\\": ""
+        }
+    }
+}
